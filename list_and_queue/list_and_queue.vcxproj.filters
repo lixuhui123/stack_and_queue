@@ -18,10 +18,10 @@
     <ClCompile Include="测试栈和队列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="连个队列实现栈.cpp">
+    <ClCompile Include="两个栈实现队列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="两个栈实现队列.cpp">
+    <ClCompile Include="两个队列实现栈.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,22 +1,23 @@
 #include <iostream>
 #include <stack>
 using namespace std;
+template<class T>
 class stacktoquueu 
 {
-	stack<int> m_stk1;
+	stack<T> m_stk1;
 public:
 	stacktoquueu()
 	{
 
 	}
-	void qu_push(int x)
+	void qu_push(T x)
 	{
 		m_stk1.push(x);
 	}
 	void qu_pop()
 	{
 		/* 队列的删除是从队头删 */
-		stack<int> m_stk2;
+		stack<T> m_stk2;
 		while (m_stk1.size()>1)
 		{
 			m_stk2.push(m_stk1.top());
@@ -29,10 +30,10 @@ public:
 			m_stk2.pop();
 		}
 	}
-	int qu_front()
+	T qu_front()
 	{
 		/* 取队列的头 */
-		stack<int> m_stk2;
+		stack<T> m_stk2;
 		while (m_stk1.size() > 1)
 		{
 			m_stk2.push(m_stk1.top());
@@ -47,7 +48,7 @@ public:
 		}
 		return tmp;
 	}
-	int qu_back()
+	T qu_back()
 	{
 		return m_stk1.top();
 	}
@@ -55,7 +56,7 @@ public:
 };
 int main()
 {
-	stacktoquueu qu;
+	stacktoquueu<int> qu;
 	qu.qu_push(1);
 	qu.qu_push(2);
 	qu.qu_push(3);
