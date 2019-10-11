@@ -54,7 +54,7 @@ public:
 	}
 
 };
-int main()
+int main2565()
 {
 	stacktoquueu<int> qu;
 	qu.qu_push(1);
