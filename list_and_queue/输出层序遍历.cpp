@@ -51,7 +51,7 @@ public:
 
 	}
 };
-int main()
+int mainkjlpl()
 {
 	
 	system("pause"); 

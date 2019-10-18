@@ -115,12 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="oj_queue_to_stack.cpp" />
     <ClCompile Include="priority_queue.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="两个栈实现队列.cpp" />
     <ClCompile Include="两个队列实现栈.cpp" />
+    <ClCompile Include="二叉树的层序遍历找每一层的最大值.cpp" />
+    <ClCompile Include="二叉树的镜像.cpp" />
     <ClCompile Include="判断是不是栈的弹出序列.cpp" />
     <ClCompile Include="测试栈和队列.cpp" />
+    <ClCompile Include="自底向上的层序遍历.cpp" />
     <ClCompile Include="输出层序遍历.cpp" />
+    <ClCompile Include="输出每一层的平均值.cpp" />
     <ClCompile Include="逆波兰表达式.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

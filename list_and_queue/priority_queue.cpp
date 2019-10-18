@@ -3,6 +3,7 @@
 #include <algorithm>//算法
 #include <queue>
 using namespace std;
+/* 优先队列 */
 class commit
 {
 	/* 仿函数类 ,让类型回调，重载()*/
@@ -12,7 +13,7 @@ public:
 		return a < b;
 	}
 };
-int main()
+int mainlnhuc()
 {
 	vector<int> v{ 1,5,26,2 };
 
