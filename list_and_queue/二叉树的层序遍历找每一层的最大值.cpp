@@ -37,8 +37,6 @@ public:
 			{
 				//cur = m_qu.back();/*以后应该注意， 此处写错了， */
 				cur = m_qu.front();
-
-               
 				//cout << m_qu.front()->val;
 				if (lev_max < m_qu.front()->val)
 				{
@@ -53,17 +51,12 @@ public:
 					m_qu.push(cur->right);
 				}
 				m_qu.pop();
-				
-
 			}
 			//cout << endl;
 			max.push_back(lev_max);
 			lev_len = m_qu.size();
 		}
-		    
-
 		return max;
-
 	}
 };
 int main1568()
