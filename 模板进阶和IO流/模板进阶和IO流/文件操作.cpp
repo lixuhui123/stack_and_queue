@@ -14,6 +14,8 @@ void filetest()
 	cout << str;
 
 	ifs.close();*/
+
+
 	ifstream ifs("test.txt", ifstream::in);
 
 	while (ifs.good())
@@ -36,6 +38,7 @@ void stringtest()
 	vector<int> v;
 	string line;
 	int tmp;
+	
 	getline(cin, line);
 	istringstream iss(line );
 	while (iss>>tmp)
@@ -46,6 +49,7 @@ void stringtest()
 	{
 		cout << i<<endl;
 	}
+	/* ×Ö·û´®×ª»»³ÉÊý×Ö£¬Êý×Ö×ª»»³É×Ö·û´® */
 }
 
 int main()
