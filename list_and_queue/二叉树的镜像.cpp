@@ -63,7 +63,7 @@ public:
 		}
 	}
 };
-int main()
+int mainxsdwedwa()
 {
 	TreeNode* t1 = new TreeNode(1);
 	TreeNode* t2 = new TreeNode(2);
